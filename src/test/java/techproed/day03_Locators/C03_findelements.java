@@ -20,6 +20,7 @@ public class C03_findelements {
         //amazon sayfasina git
         driver.get("https://amazon.com");
 
+
         //sayfadaki linklerin sayisini ve linkkleri yazdiralim
         /*
         findelement ile bir webelemente ulasabilirken birden fazla webelement icin findelement() methodunu

@@ -14,6 +14,7 @@ public class C01_getTagName_getAttributeName {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
+
         // 1- amazon.com'a gidip arama kutusunu locate edin
         driver.get("https://www.amazon.com");
         WebElement aramaKutusu = driver.findElement(By.id("twotabsearchtextbox"));
